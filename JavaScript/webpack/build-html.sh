@@ -1,0 +1,1 @@
+npx pug src/layout/button/*.pug --pretty --out public/button
