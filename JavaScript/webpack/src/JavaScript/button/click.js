@@ -1,7 +1,7 @@
-const button = document.querySelectorAll('.button').forEach(function (button) {
+document.querySelectorAll('.button').forEach(function (button) {
 	button.addEventListener('click', {value: `${button.value}`, handleEvent: onClickButton});
 })
 
-function onClickButton(e) {
+function onClickButton() {
 	console.log(`${this.value}がクリックされました`)
 }
